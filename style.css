@@ -47,6 +47,9 @@ header div {
     justify-content: center;
     font-weight: 800;
 }
+.get-started {
+    height: 40px !important;
+}
 header .sign-up, .get-started {
     border: 1.5px solid white;
 }

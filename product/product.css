@@ -1,0 +1,12 @@
+.bg-img {
+  
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.bg-img img {
+    width: 860px;
+    height: 660px;
+}

@@ -1,0 +1,54 @@
+h2 {
+    color: #4B6532;
+    font-size: 50px;
+}
+main{
+    padding: 20px 40px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+}
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 160px;
+}
+form div div, .unvan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+form div div label, .unvan label {
+    font-size: 13px;
+    color: #33491D;
+}
+form div div input, .unvan input {
+    border: 1.5px solid #33491D;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    width: 300px;
+}
+form button {
+    background-color: #33491D;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+}
+form button a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+
+}
